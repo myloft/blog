@@ -32,7 +32,7 @@ after_script:
 
 branches:
   only:
-    - master
+    - gh-pages
 env:
  global:
    - GH_REF: github.com/myloft/blog

@@ -26,7 +26,7 @@ after_script:
   - git config user.name "solyn"
   - git config user.email "admin@iloft.xyz"
   - git add .
-  - git commit -m ":memo:\ Update docs by CI"
+  - git commit -m ":memo: Update blog by CI"
   - git push --force --quiet "https://${CI_TOKEN}@${GH_REF}" master:gh-pages
 # E: Build LifeCycle
 

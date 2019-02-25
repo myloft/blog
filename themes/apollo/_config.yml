@@ -14,7 +14,7 @@ valine:
   enable: true # if you want use valine, please set enable: true
   appid:  N1tTKn3LEO1Xmg4kMyX8TDy6-gzGzoHsz # your leancloud appid
   appkey:  i4xk0BbhpGn2n9OlAelavNx9 # your leancloud appkey
-  notify: true # true/false:mail
+  notify: false # true/false:mail
   verify: false # true/false:verify code
   avatar: retro # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   avatar_cdn: https://sdn.geekzu.org/avatar/

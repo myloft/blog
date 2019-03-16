@@ -19,9 +19,9 @@ tags: 好玩
 第1.1次翻车
 ---
 　　最先到达的是矿渣机箱，虽然说是矿渣，但是成色还是不错的，正面右下角有磕碰，机箱风扇几乎无灰（伏笔）。    
-![NAS机箱](/images/NAS-case.jpg)  
+![NAS机箱](/images/NAS-Case.jpg)  
 　　首先打开HTPC的盖板，塞得满满的。CPU风扇对比矿渣的机箱风扇简直是天壤之别，莫非矿机都是在无尘间里工作的么~  
-![HTPC机箱](/images/HTPC-case.jpg)  
+![HTPC机箱](/images/HTPC-Case.jpg)  
 　　一顿操作猛如虎猛装好主板（少了一根主板螺丝），首先翻车的是机箱面板线短了那么1cm（DQ77KB与J1900的接口位置左右镜像，同样的主板SATA接口与硬盘笼的SATA接口也不在同一侧）……手上没有杜邦线，难道以后每次开机都得开盖开机么？错！当然是插好电源线和网线优雅的走到电脑前，打开网页，远程启动咯。  
 ![短了1cm](/images/front-panel.jpg)  
 ![远程启动](/images/AMT-power-up.jpg)  

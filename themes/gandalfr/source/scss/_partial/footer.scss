@@ -1,0 +1,40 @@
+.paginator {
+    margin: 0em 0;
+    text-align: center;
+    .prev, .next {
+        display: inline-block;
+        padding: 4px 20px;
+        border-radius: 10px;
+        border-bottom: 4px solid #3aa373;
+        color: #fff;
+        background-color: #4fc08d;
+        &:hover {
+            background-color: #22bd77;
+        }
+        font-size: 15px;
+    }
+    .prev {
+        float: left;
+    }
+    .next {
+        float: right;
+    }
+    .page-number {
+        margin: 10px;
+        font-size: 18px;
+        color: #22bd77;
+        padding: 10px;
+    }
+    // when only one page, just hide the number.
+    .page-number:nth-last-child(1):first-child{
+        display:none;
+    }
+    .current {
+        color: #222 !important;
+    }
+}
+
+.ds-thread,
+#disqus_thread {
+    margin-bottom: 2em;
+}

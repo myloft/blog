@@ -25,7 +25,3 @@ ga: UA-89639365-1
 
 # Copyright Infomation
 startyear: 2013
-
-# Styles shoule be found in the list: https://highlightjs.org/static/demo/
-# use the lowercase letters and replace space with -
-codestyle: github

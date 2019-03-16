@@ -159,7 +159,7 @@ body {
 	font-size:15px;
 	line-height:1.6;
 	background-color:#fff;
-	font-family: "PingFang SC","comic sans", "Meslo LG", 'Helvetica Neue', 'sourcesanspro', "sans-serif",Arial,sans-serif
+    font-family: "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, Verdana, sans-serif
 }
 ul.nav,ul.post-list {
 	margin:0;
@@ -585,12 +585,6 @@ footer .copyright p,footer .copyright a {
 }
 footer .copyright a:hover {
 	color:#42b983
-}
-@font-face {
-	font-family:'sourcesanspro';
-	src:url("../font/sourcesanspro.woff2") format("woff2"),url("../font/sourcesanspro.woff") format("woff");
-	font-weight:normal;
-	font-style:normal
 }
 
 /* 选择id 用# 选择class用.*/

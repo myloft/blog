@@ -1,5 +1,5 @@
 ---
-title: Openwrt使用Softether配置L2tp
+title: Openwrt使用Softether配置L2TP VPN
 date: 2019-03-22 12:00:00
 tags: 网络
 ---

@@ -82,6 +82,8 @@ archive_generator:
     monthly: false
     daily: false
 
+all_minifier: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 

@@ -13,7 +13,7 @@ install:
  # - npm install -g gulp
 
 script:
-  - hexo clean && hexo g
+  - hexo clean && hexo g && hexo d
 
 after_script:
   - git clone https://${GH_REF} .deploy_git
@@ -36,3 +36,5 @@ branches:
 env:
  global:
    - GH_REF: github.com/myloft/blog
+   - secretId: ${secretId}
+   - secretKey: ${secretKey}

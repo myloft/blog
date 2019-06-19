@@ -87,12 +87,10 @@ all_minifier: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
-type: cos
-appId: 1251590081
-secretId: ${secretId}
-secretKey: ${secretKey}
-bucket: iloft
-region: ap-shanghai
+  type: cos
+  appId: 1251590081
+  bucket: iloft
+  region: ap-shanghai
   # type: git
   # repo: https://github.com/myloft/blog.git
   # branch: gh-pages

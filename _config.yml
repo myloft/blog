@@ -89,6 +89,8 @@ all_minifier: true
 deploy: 
   type: cos
   appId: 1251590081
+  secretId: env.secretId
+  secrerKey: env.secretKey
   bucket: iloft
   region: ap-shanghai
   # type: git

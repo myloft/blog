@@ -91,7 +91,7 @@ deploy:
   appId: 1251590081
   secretId: ${secretId}
   secretKey: ${secretKey}
-  bucket: iloft
+  bucket: iloft-1251590081
   region: ap-shanghai
   # type: git
   # repo: https://github.com/myloft/blog.git

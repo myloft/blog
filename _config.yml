@@ -90,7 +90,7 @@ deploy:
   type: cos
   appId: 1251590081
   secretId: ${secretId}
-  secrerKey: ${secretKey}
+  secretKey: ${secretKey}
   bucket: iloft
   region: ap-shanghai
   # type: git

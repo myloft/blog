@@ -38,3 +38,5 @@ branches:
 env:
  global:
    - GH_REF: github.com/myloft/blog
+   - secretId: ${SecretId}
+   - secretKey: ${SecretKey}

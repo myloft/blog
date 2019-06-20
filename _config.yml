@@ -91,7 +91,7 @@ deploy:
   appId: 1251590081
   # secretId: ${SecretId}
   # secretKey: ${SecretKey}
-  secretId: SecretId}
+  secretId: SecretId
   secretKey: SecretKey
   bucket: iloft-1251590081
   region: ap-shanghai

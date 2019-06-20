@@ -15,7 +15,6 @@ install:
 script:
   - sed -i "s/SecretId/${SecretId}/" _config.yml
   - sed -i "s/SecretKey/${SecretKey}/" _config.yml
-  - cat _config.yml
   - hexo clean && hexo g && hexo d
 
 after_script:

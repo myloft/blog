@@ -15,6 +15,7 @@ install:
 script:
   - sed -i "s/SecretId/$SecretId/" _config.yml
   - sed -i "s/SecretKey/$SecretKey/" _config.yml
+  - cat _config.yml
   - hexo clean && hexo g && hexo d
 
 after_script:
@@ -38,5 +39,3 @@ branches:
 env:
  global:
    - GH_REF: github.com/myloft/blog
-   - secretId: ${SecretId}
-   - secretKey: ${SecretKey}

@@ -1,6 +1,7 @@
 ---
 title: wordpress搬家之准备篇
 date: 2013-6-12 14:02:01
+updated: 2013-6-12 14:02:01
 tags: wordpress
 ---
 登陆网站控制台，本站是建在1freehosting上的属于山寨版cpanel，开始备份吧！

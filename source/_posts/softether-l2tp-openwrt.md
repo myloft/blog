@@ -1,6 +1,7 @@
 ---
 title: Openwrt使用Softether配置L2TP VPN
 date: 2019-03-22 12:00:00
+updated: 2019-03-22 12:00:00
 tags: 网络
 ---
 　　由于主流VPN协议被重点关照，所以之前在服务器上一直使用的Ocserv来配置Cisco的Anyconnect做游戏加速。沿用到路由器上发现并不好用，配置文件比较复杂，手机电脑还要装应用。所以尝试了一下弃用已久的Softether发现挺好用的。

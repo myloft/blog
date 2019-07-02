@@ -1,6 +1,7 @@
 ---
 title: Travis CI + Hexo + COS 配置
 date: 2019-06-20 16:30:00
+updated: 2019-06-20 16:30:00
 tags: hexo
 ---
 　　之前一直使用Travis CI + Github Pages + Hexo + Cloudflare的方案托管博客，省心速度还将就。最近一段时间CF的443端口出现劣化现象，于是将博客重新迁移回腾讯云对象存储上了。并记录一下配置。

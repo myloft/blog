@@ -1,6 +1,7 @@
 ---
 title: TensorFlow白皮书中文PDF
 date: 2019-01-03 15:52:46
+updated: 2019-01-03 15:52:46
 tags: TensorFlow
 ---
 　　毕设选题是关于TensorFlow的图像识别的，需要翻译相关文档。所以就整理了相关TensorFlow白皮书的中文翻译并制作成了PDF。

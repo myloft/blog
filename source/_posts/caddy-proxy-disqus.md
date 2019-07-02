@@ -1,7 +1,8 @@
 ---
 title: 使用caddy反代Disqus API服务器
 date: 2018-12-27 11:51:34
-tags:
+updated: 2018-12-27 11:51:34
+tags: Linux
 ---
 　　DisqusJS提供的默认服务器不保证SLA，如果有国外服务器可以自行反代。这种简单反代任务交给Caddy还是很舒心的~~
 <!-- more --> 

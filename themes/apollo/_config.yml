@@ -3,6 +3,7 @@ menu:
     Archive: /archives/
     About: /about/
     Links: /links/
+    RSS: /atom.xml
 
 favicon: /favicon.ico
 logo: /logo.png

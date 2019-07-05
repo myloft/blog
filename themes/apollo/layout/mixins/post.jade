@@ -43,7 +43,7 @@ mixin post(item)
     - var url = url_for(page.path)
     .post
         article.post-block
-            if url != '/about/index.html' && url != '/links/index.html'
+            if url != '/about/index.html' && url != '/links/index.html' && url != '/error.html'
                 h1.post-title
                     != item.title
                 +postInfo(item)

@@ -83,6 +83,9 @@ archive_generator:
     monthly: false
     daily: false
 
+sitemap:
+    path: sitemap.xml
+
 all_minifier: true
 
 # Deployment

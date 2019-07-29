@@ -13,6 +13,9 @@ main.container {
 }
 
 @media screen and (max-width: 900px) {
+    .tagcloud {
+        display: none !important;
+    }
     .wrap {
         width: 100%;
     }

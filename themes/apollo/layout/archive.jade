@@ -6,11 +6,10 @@ block container
         h2(class='archive-years')= '归档'
         script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcloud.js"))
         script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcanvas.js"))
-
         #myCanvasContainer.widget.tagcloud(align='center')
-            canvas#resCanvas(width='600', height='600', style='width=100%')
+            canvas#resCanvas(width='600', height='500', align=center)
                 !=tagcloud()
-            !=tagcloud()    
+            !=tagcloud()
     +postList()
 
 block pagination

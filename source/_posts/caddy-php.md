@@ -3,7 +3,6 @@ title: Caddy + PHP简易教程
 date: 2018-11-02 18:38:51
 updated: 2018-11-02 18:38:51
 tags: Linux
-toc: true
 ---
 
 　　最近入坑PT，入了Online的独服刷流量。各大教程中Rutorrent都是配合Nginx的，有点麻烦。平时Caddy用的比较多就换成了Caddy。使用Caddy的话可以更加方便的开启TLS和BasicAuth。

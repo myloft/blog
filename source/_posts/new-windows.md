@@ -2,7 +2,7 @@
 title: Windows 8.1 预览版火爆下载
 date: 2013-6-27 18:46:59
 updated: 2013-6-27 18:46:59
-tags: 好玩
+tags: 
 ---
 **Windows 8.1是Windows 8的免费更新版，即将于今年下半年推出，微软刚刚已经放出了Windows 8.1预览版（Preview）的下载，不过目前还只有MSDN和TechNet订阅用户可以下载。**如果你通过Windows 应用商店安装 Windows 8.1 Preview，则不需要产品密钥。 如果你下载ISO镜像，则需要输入此产品密钥：NTTX3-RV7VB-T7X7F-WQYYY-9Y92F。
 

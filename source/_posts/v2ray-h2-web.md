@@ -2,7 +2,7 @@
 title: v2ray h2 + web 配置
 date: 2019-02-15 16:42:21
 updated: 2019-02-15 16:42:21
-tags: 网络
+tags: Network
 ---
 　　v2ray的h2+web模式要比websocket+tls+web模式的配置复杂一点，性能也相对好一点，记录一下配置。
 <!-- more --> 

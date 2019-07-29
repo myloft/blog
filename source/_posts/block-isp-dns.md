@@ -2,7 +2,7 @@
 title: iptables解决运营商DNS抢答(我劫持我自己)
 date: 2019-01-23 21:06:45
 updated: 2019-01-23 21:06:45
-tags: 网络
+tags: Network
 ---
 　　春节带着NAS回家，发现UT里的种子一片红。本以为是CloudFlare连通性不好，但PT主站都能正常访问。尝试ping发现tracker服务器被解析到了127.0.0.1。  
 <!-- more --> 

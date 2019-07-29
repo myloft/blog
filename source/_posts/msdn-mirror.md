@@ -2,7 +2,7 @@
 title: msdn i tell you微软产品大全（收藏价值）
 date: 2013-7-14 19:14:05
 updated: 2013-7-14 19:14:05
-tags: 工具箱
+tags: Tools
 ---
 经常在网上飘，怎么能不中毒~~~
 

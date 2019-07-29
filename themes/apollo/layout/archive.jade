@@ -1,21 +1,17 @@
 extends partial/layout
 
-//- 新增标签云
-mixin tags_cloud()
-    .tag-cloud
-        //- 在标签页隐藏标签云
-        - var url = url_for(page.path)
-        if url == '/archives/index.html'
-            h2 Tags
-            .tag-cloud-content
-                != tagcloud({min_font: 16, max_font: 16, amount: 30, color: false, start_color: '#42b983', end_color: '#42b983'})
-
-
 block container
     include mixins/post
-    +tags_cloud()
-    +postList()
+    .archive
+        h2(class='archive-years')= '归档'
+        script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcloud.js"))
+        script(type='text/javascript', charset='utf-8', src=url_for("/js/tagcanvas.js"))
 
+        #myCanvasContainer.widget.tagcloud(align='center')
+            canvas#resCanvas(width='600', height='600', style='width=100%')
+                !=tagcloud()
+            !=tagcloud()    
+    +postList()
 
 block pagination
     include mixins/paginator

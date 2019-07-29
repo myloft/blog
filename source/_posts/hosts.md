@@ -2,7 +2,7 @@
 title: Facebook、Twitter、Google+hosts（2013.6.12更新）
 date: 2013-6-12 16:46:32
 updated: 2013-6-12 16:46:32
-tags: 好玩
+tags: Tools
 ---
 Facebook、Twitter、Google+hosts（2013.6.12更新）
 使用方法：

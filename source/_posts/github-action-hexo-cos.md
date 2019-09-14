@@ -54,6 +54,7 @@ jobs:
         SecretKey: ${{ secrets.SecretKey }}
 
       run: |
+        npm install hexo-cli -g
         npm install
         sed -i "s/SecretId/${SecretId}/" _config.yml
         sed -i "s/SecretKey/${SecretKey}/" _config.yml

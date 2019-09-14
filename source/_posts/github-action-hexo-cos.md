@@ -34,21 +34,19 @@ deploy:
 name: Deploy Hexo To COS & Github Pages
 
 on:
-push:
-  braches: 
-  - master
+  push:
+    braches: 
+      - master
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
     - uses: actions/checkout@v1
-
-    - name: Use Node.js 10.x
-      uses: actions/steup-node@v1
+    - uses: actions/setup-node@v1
       with:
-        node-version: "10.x"
+        node-version: '10.x'
 
     - name: Setup Hexo & COS env
       env:
@@ -68,7 +66,7 @@ jobs:
       env:
         GH_REF: github.com/myloft/blog
         CI_TOKEN: ${{ secrets.CI_TOKEN }}
-
+        
       run: |
         git clone https://${GH_REF} .deploy_git
         cd .deploy_git

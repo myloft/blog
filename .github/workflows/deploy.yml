@@ -9,13 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v1
-
-    - name: Use Node.js 10
-      uses: actions/steup-node@v1
+  steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
       with:
-        version: "10"
+        node-version: '10.x'
 
     - name: Setup Hexo & COS env
       env:

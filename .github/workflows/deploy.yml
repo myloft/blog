@@ -12,10 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: Use Node.js 10.x
+    - name: Use Node.js 10
       uses: actions/steup-node@v1
       with:
-        node-version: "10.x"
+        version: "10"
 
     - name: Setup Hexo & COS env
       env:

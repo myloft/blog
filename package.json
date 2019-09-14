@@ -1,13 +1,12 @@
 {
   "name": "hexo-site",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "hexo": {
     "version": "3.9.0"
   },
   "dependencies": {
-    "hexo": "^3.7.0",
-    "hexo-cli": "2.0.0",
+    "hexo": "^3.9.0",
     "hexo-all-minifier": "^0.5.3",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-cos": "^1.0.0",

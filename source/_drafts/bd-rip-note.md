@@ -22,4 +22,3 @@ src=core.lsmas.LWLibavSource("00000.m2ts", threads=1)
 src=default.Denoise(src)
 res=default.Deband(src).fmtc.bitdepth(bits=10)
 ```
-123

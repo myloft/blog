@@ -1,4 +1,4 @@
-name: Deploy Hexo To COS & Github Pages
+name: Deploy-Hexo
 
 on:
   push:

@@ -31,7 +31,7 @@ deploy:
 #### 配置文件
 　　创建并编辑 `.github/workflows/deploy.yml` ，与 Travis CI 格式大同小异，仍然需要使用 sed 命令替换隐私信息。由于Github Action支持私有仓库，如果是私有仓库可以直接在配置文件里填写敏感信息。
 ```yml
-name: Deploy Hexo To COS & Github Pages
+name: Deploy
 
 on:
   push:

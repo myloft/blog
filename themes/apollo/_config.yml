@@ -18,6 +18,7 @@ valine:
   verify: false # true/false:verify code
   avatar: retro # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   avatar_cdn: https://sdn.geekzu.org/avatar/
+  serverURLs: https://api.iloft.xyz
   placeholder: # comment box placeholder
 
 # Analytics

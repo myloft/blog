@@ -2,7 +2,7 @@
 title: WD Elements 10T 开箱与拆解
 date: 2019-12-06 22:06:42
 updated: 2019-12-06 22:06:42
-tags:
+tags: NAS
 ---
 　　最近 NAS 硬盘空间告急，就在黑五以日常折扣价入手了 WD Elements 10TB。6 号中午就到了。
 　　这盘的开箱已经被开烂了，着实没啥好看的。

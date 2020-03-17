@@ -1,6 +1,7 @@
 ---
 title: golang 实现 token 认证
 date: 2020-03-06 18:36:43
+updated: 2020-03-06 18:36:43
 tags: golang
 ---
 　　之前做项目的时候为了省事都是直接采用第三方的 Auth 包。这次使用 Gin 实现时决定参考去年写的 [JWT](/archives/sars2019-5.html) 文章实现一个简单的 token 认证，如果存在安全漏洞或者不周到的地方烦请指出。

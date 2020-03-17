@@ -4,12 +4,12 @@ date: 2020-03-17 14:50:51
 update: 2020-03-17 14:50:51
 tags: golang
 ---
-　　最近 `let's encrypt`，宣布吊销 300 万个证书，因为没被波及所以没收到邮件。今天才看到了这条新闻，根据描述是因为 Boulder 的 bug 导致不能正确的验证 `CAA`。
+　　最近 `let's encrypt` 宣布吊销 300 万个证书，因为没被波及所以没收到邮件。今天才看到了这条新闻，根据描述是因为 Boulder 的 bug 导致不能正确的验证 `CAA`。
 <!-- more -->
 ## CAA
 　　要搞明白这个 bug 得先了解 `CAA` 是干嘛用的。简单的来说 CA 在签发证书的时候需要检查一下域名的 `CAA` 记录，如果有自己的话就签发，如果没有就拒绝签发。通过设置 `CAA` 就可以防止某些人利用其它 CA 的一些漏洞签发证书。比如这次的 `let's encrypt`，`CAA` 需要设置成 `letsencrypt.org`。如果什么都不设，任何 CA 都可以签发证书。
 ## 漏洞发现
-　　了解了 `CAA` 就可以来看一看 `let's encrypt` 论坛上的这个[求助](https://community.letsencrypt.org/t/rechecking-`CAA`-fails-with-99-identical-subproblems/113517)。正确情况下检测多个域名 `CAA` 如果一个域名检测失败，报一次错；多个域名检测失败，报多个不同的错。但实际上 `admin.mrhs.hwrsd.org` 这个域名报错 99 次。并且 let’s encrypt 也的确重复检查了 99 次。
+　　了解了 `CAA` 就可以来看一看 `let's encrypt` 论坛上的这个[求助](https://community.letsencrypt.org/t/rechecking-`CAA`-fails-with-99-identical-subproblems/113517)。正确情况下检测多个域名 `CAA` 如果一个域名检测失败，报一次错；多个域名检测失败，报多个不同的错。但实际上 `admin.mrhs.hwrsd.org` 这个域名报错 99 次。并且 `let's encrypt` 也的确重复检查了 99 次。
 
 　　也就是说实际上只检测了 `admin.mrhs.hwrsd.org` 一个域名，其它域名并没有被检测。这样就可以使用一个可以通过检测的域名来让那些那些没有正确设置 `CAA` 的域名逃过检测。
 ## 漏洞代码

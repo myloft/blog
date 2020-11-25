@@ -15,18 +15,18 @@ jobs:
       with:
         node-version: '10.x'
 
-    - name: Setup Hexo & COS env
-      env:
-        SecretId: ${{ secrets.SecretId }}
-        SecretKey: ${{ secrets.SecretKey }}
-
+    - name: Setup Hexo
       run: |
         npm install hexo-cli -g
         npm install
-        sed -i "s/SecretId/${SecretId}/" _config.yml
-        sed -i "s/SecretKey/${SecretKey}/" _config.yml
     
     - name: Deploy to COS
+      env:
+        COS_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+        COS_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+        COS_BUCKET: ${{ secrets.COS_BUCKET }}
+        COS_REGION: ${{ secrets.COS_REGION }}
+
       run: |
         hexo clean && hexo g && hexo d
 
@@ -46,5 +46,5 @@ jobs:
         git config user.name "Solyn"
         git config user.email "admin@iloft.xyz"
         git add .
-        git commit -m ":memo:\ Update blog by Actions"
+        git commit -m ":memo: Update blog by Actions"
         git push --force --quiet "https://${CI_TOKEN}@${GH_REF}" master:gh-pages

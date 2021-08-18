@@ -1,7 +1,7 @@
 ---
 title: 友链
 date: 2018-11-08 09:58:55
-updated: 2018-11-08 09:58:55
+updated: 2021-08-18 18:24:55
 ---
 　　戊戌冬，研试毕。百废具兴，乃重修阁楼，增其旧制，刻大佬巨擘于其上。
 
@@ -13,3 +13,4 @@ updated: 2018-11-08 09:58:55
 - [露水晨曦](https://www.lscx.org/)
 - [湖畔阁楼](https://zxc.so/)
 - [Matthew Blog](https://blog.eloxt.com)
+- [张戈博客](https://zhang.ge/)

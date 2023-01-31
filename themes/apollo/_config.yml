@@ -21,9 +21,12 @@ logo: /logo.svg
 #   serverURLs: https://api.iloft.xyz
 #   placeholder: # comment box placeholder
 
-waline:
-  enable: true # if you want use waline, please set enable: true
-  serverURL: https://comments.iloft.xyz/waline
+# waline:
+#   enable: false # if you want use waline, please set enable: true
+#   serverURL: https://comments.iloft.xyz/waline
+
+giscus:
+  enable: true # if you want use giscus, please set enable: true
 
 # Analytics
 # google-analytics:

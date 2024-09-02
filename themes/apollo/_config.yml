@@ -26,7 +26,7 @@ logo: /logo.svg
 #   serverURL: https://comments.iloft.xyz/waline
 
 giscus:
-  enable: true # if you want use giscus, please set enable: true
+  enable: false # if you want use giscus, please set enable: true
 
 # Analytics
 # google-analytics:

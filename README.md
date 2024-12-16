@@ -9,4 +9,4 @@ You can also see the generated files at gh-pages branch.
 
 ## License
 
-Content @ [Solyn](https://www.iloft.xyz), All Rights Reserved.
+Content @ [Yu](https://www.iloft.xyz), All Rights Reserved.

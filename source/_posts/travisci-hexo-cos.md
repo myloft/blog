@@ -59,7 +59,7 @@ after_script:
   - mv .deploy_git/.git/ ./public/
   - cd ./public
   - git init
-  - git config user.name "solyn"
+  - git config user.name "Yu"
   - git config user.email "admin@iloft.xyz"
   - git add .
   - git commit -m ":memo:\ Update blog by CI"

@@ -1,7 +1,7 @@
 ---
 title: 我的家庭 NAS 方案（当前进化至 EPYC 7D12 + TrueNAS）
 date: 2025-06-24 11:00:00
-updated: 2025-06-25 11:00:00
+updated: 2025-07-17 11:00:00
 tags: NAS
 ---
 
@@ -91,3 +91,8 @@ ipmitool -I lanplus -H 172.17.0.199 -U admin -P admin raw 0x0e 0x65 0 0x42
 ![windows](/images/windows.png)
 
 &emsp;&emsp;至此我的第三代 NAS 也完成了软硬件升级（PS：买的 Mellanox CX4 25Gbps 网卡还在路上，不过应该对 NAS 整体架构没有太大影响）~ 
+
+## 小更新
+
+&emsp;&emsp;CX4 网卡到手了，SR-IOV 直通 TrueNAS 和 Windows 相较 VirtIO 性能在网络传输性能上确实有大幅度提升，贴一下 Windows 远程读写 TrueNAS SMB 性能吧，性能够用。
+![truenas](/images/cdm-nas-smb.png)
